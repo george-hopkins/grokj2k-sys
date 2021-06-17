@@ -1,0 +1,17 @@
+[package]
+name = "grokj2k-sys"
+description = "Bindings to World's Leading Open Source JPEG 2000 Codec"
+version = "0.1.0"
+authors = ["George Hopkins <george-hopkins@null.net>"]
+categories = ["external-ffi-bindings", "multimedia::images"]
+keywords = ["jpeg", "j2k", "jp2", "jpeg-2000", "grok"]
+license = "AGPL-3.0-only"
+repository = "https://github.com/george-hopkins/grokj2k-sys"
+edition = "2018"
+links = "grokj2k"
+
+[dependencies]
+libc = "0.2"
+
+[build-dependencies]
+pkg-config = "0.3.19"
