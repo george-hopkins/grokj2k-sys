@@ -1,7 +1,7 @@
 [package]
 name = "grokj2k-sys"
 description = "Bindings to World's Leading Open Source JPEG 2000 Codec"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["George Hopkins <george-hopkins@null.net>"]
 categories = ["external-ffi-bindings", "multimedia::images"]
 keywords = ["jpeg", "j2k", "jp2", "jpeg2000", "grok"]
